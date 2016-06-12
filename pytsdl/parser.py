@@ -1494,7 +1494,7 @@ class _DocCreatorVisitor:
         clock = self._get_cur_obj()
 
         if key == 'name':
-            clock.name = value[0].value
+            clock.name = value.value
         elif key == 'description':
             clock.description = value.value
         elif key == 'freq':
